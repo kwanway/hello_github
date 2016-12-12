@@ -1,0 +1,9 @@
+# This is a file about git command!
+echo "# hello_github" >> README.md
+git init
+git add README.md
+git command -m "first commit"
+git remote add origin https://github.com/kwanway/hello_github.git
+git push -u origin master
+
+
